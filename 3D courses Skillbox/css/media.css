@@ -1,0 +1,217 @@
+@media (max-width: 991px) {
+  .nav__list {
+    padding-left: 8%;
+  }
+
+  .hero__title {
+    padding-bottom: 16px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .hero__img {
+    padding-top: 102px;
+  }
+
+  .hero__btn {
+    margin-bottom: 126px;
+  }
+
+  .benefits__bottom-item {
+    flex-direction: column;
+  }
+
+  .benefits__bottom-text {
+    padding-top: 8px;
+  }
+
+  .teacher {
+    padding-bottom: 26px;
+  }
+
+  .teacher__descr {
+    margin-bottom: 23px;
+  }
+
+  .courses__bottom {
+    height: 376px;
+  }
+
+  .courses__bottom-descr {
+    min-height: 221px;
+  }
+
+  .courses__bottom-btn {
+    padding: 20.5px 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding-bottom: 32px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  .nav__list {
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .hero__title {
+    padding-top: 77px;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  .hero__btn {
+    margin-bottom: 111px;
+  }
+
+  .benefits {
+    padding-bottom: 54px;
+  }
+
+  .benefits__main-logo {
+    padding-top: 0;
+  }
+
+  .teacher {
+    padding-bottom: 51px;
+  }
+
+  .teacher img {
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .courses__bottom {
+    height: 473px;
+  }
+
+  .courses__bottom-head {
+    line-height: 23px;
+  }
+
+  .courses__bottom-descr {
+    min-height: 300px;
+  }
+
+  .courses__bottom-btn {
+    padding: 20.5px 48px;
+  }
+}
+
+@media (max-width: 575px) {
+  .burger {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: var(--color-light);
+    right: 15px;
+    top: 25px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    justify-content: flex-start;
+    padding-bottom: 0;
+  }
+
+  .hero__title {
+    padding-top: 52px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .hero__descr {
+    padding-bottom: 44px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .hero__btn {
+    margin-bottom: 28px;
+    padding: 20px 53px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .benefits {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+
+  .benefits__main-logo {
+    display: none;
+  }
+
+  .benefits__title {
+    padding-bottom: 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .benefits__descr {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .benefits__bottom-item {
+    flex-direction: row;
+  }
+
+  .benefits__bottom-item:not(:last-child) {
+    padding-bottom: 23px;
+  }
+
+
+  .benefits__bottom-icon {
+    padding-right: 11%;
+  }
+
+  .teacher {
+    padding-top: 47px;
+    padding-bottom: 25px;
+  }
+
+  .teacher__title {
+    padding-bottom: 27px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .courses {
+    padding-top: 46px;
+  }
+
+  .courses__title {
+    padding-bottom: 27px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .courses__bottom-btn {
+    margin-top: auto;
+    padding: 20.5px 56px;
+  }
+
+  .footer__up {
+    margin-top: 20px;
+  }
+
+  .footer__content {
+    justify-content: center;
+  }
+
+}
